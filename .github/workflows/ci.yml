@@ -3,7 +3,7 @@ name: CI for Pull Requests
 on:
   pull_request:
     branches:
-      - master  # This assumes you want to run CI for PRs targeting the 'main' branch.
+      - main  # This assumes you want to run CI for PRs targeting the 'main' branch.
 
   workflow_dispatch:
     inputs:
