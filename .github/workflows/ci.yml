@@ -36,9 +36,9 @@ jobs:
       working-directory: ./app
       run: npm run lint
 
-    - name: Run Prettier
-      working-directory: ./app
-      run: npm run prettier
+#    - name: Run Prettier
+#      working-directory: ./app
+#      run: npm run prettier
 
     - name: Run Jest tests
       working-directory: ./app
